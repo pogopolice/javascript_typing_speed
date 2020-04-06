@@ -1,0 +1,2 @@
+docker image build -t pogopolice/nginx:javascript .
+docker container run --rm -it -p 80:80 pogopolice/nginx:javascript
